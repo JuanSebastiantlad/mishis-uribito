@@ -1,0 +1,52 @@
+<html>
+    <head>
+            <title> MISHIS  </title>
+    </head>
+    <body>
+        <p style="font-size:50px;">Crea tu mishi</p>
+            <form action="/my-handling-form-page" method="post">
+                <div>
+                    <label for="name">Nombre de tu gato:</label>
+                    <input type="text" id="name" />
+                </div>
+                <div>
+                    <label for="mail">Correo electronico:</label>
+                    <input type="email" id="mail" />
+                </div>
+                <p>Contraseña: <input type="password" name="pass" placeholder="Elije una contraseña fuerte"></p>
+                <div>
+                    <label for="msg">Qué tipo de comida ingiere tu mishi?:</label>
+                    <textarea id="msg"></textarea>
+                </div>
+            </form>
+            <form action="../../form-result.php" method="post" target="_blank">
+            
+                <p>
+              
+                  Tipo de gatito:<br>
+              
+                  <input type="radio" name="tipodegatito" value="mishitriste:("> mishi triste:(<br>
+              
+                  <input type="radio" name="tipodegatito" value="mishineutro:l"> mishi neutro :l<br>
+              
+                  <input type="radio" name="tipodegatito" value="mishifeliz:)"> mishi feliz:)
+              
+                </p>
+              
+              </form>
+              <form action="../../form-result.php" method="post" target="_blank">
+            
+                <p>
+              
+                  Sexo de tu mishi:<br>
+              
+                  <input type="radio" name="empleoactual" value="tiempocompleto">Mishi hembra<br>
+              
+                  <input type="radio" name="empleoactual" value="mediodia"> Mishi macho<br>
+              </p>
+              
+                <p><input type="submit" value="Enviar datos"></p>
+              
+              </form>
+    </body>
+</html>
