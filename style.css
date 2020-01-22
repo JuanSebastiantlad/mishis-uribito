@@ -41,7 +41,7 @@ a:hover{
       font-style: italic;
 }
 
-img:hover{
+#img:hover{
     width: 320px;
 }
 
@@ -87,7 +87,7 @@ div{
 
     position: fixed;
     bottom: 10px;
-    right: 30px;
+    left: 300px;
 }
 
 .cuadro5{
@@ -105,4 +105,14 @@ div{
     right: 30px;
     
 }
+
+#kkk:hover{
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transform: rotateZ(300deg) scale(1.2);
+    filter: invert(50);
+    transition-delay: (0,5s)
+    
+}
+
 
