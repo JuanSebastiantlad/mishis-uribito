@@ -114,5 +114,60 @@ div{
     transition-delay: (0,5s)
     
 }
+.cuadro2{
+    animation-name: Goteo;
+    animation-duration: 1800ms;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
+.cuadro5{
+    animation-name: Grucci;
+    animation-duration: 3000ms;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: normal 
+}
+.kkk{
+    animation-name: dracukeo;
+    animation-duration: 2000ms;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: ease-out;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+@keyframes Goteo{
+    from{
+        
+
+    }
+    to{
+        transform: rotateZ(150deg);
+        filter: contrast(300%);
+    }
+}
+
+@keyframes Grucci{
+    from{
+
+    
+    }
+    to{
+        transform: rotateX(180deg);
+        filter: grayscale(100%);
+    }
+}
+@keyframes dracukeo{
+    from{
+
+    }
+    to{
+        transform: rotateY(290deg);
+
+    }
+}
 
